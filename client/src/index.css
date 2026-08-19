@@ -24,6 +24,8 @@
 }
 
 * { border-color: var(--border); }
+::selection { background: #1f4b3a; color: #fffdf7; text-shadow: none; }
+::-moz-selection { background: #1f4b3a; color: #fffdf7; text-shadow: none; }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--background); color: var(--foreground); font-family: "Manrope", sans-serif; }
 button, a { -webkit-tap-highlight-color: transparent; }
@@ -51,7 +53,7 @@ button { font: inherit; }
 
 .hero-section { padding: 37px 0 0; background: #f6f2eb; }
 .hero-grid { display: grid; grid-template-columns: minmax(0, 1.04fr) minmax(365px, .96fr); width: min(100% - 3rem, 1300px); min-height: 597px; margin: 0 auto; gap: clamp(40px, 7vw, 115px); }
-.hero-copy { display: flex; flex-direction: column; padding: clamp(36px, 7vw, 95px) 0 37px; }
+.hero-copy { display: flex; flex-direction: column; padding: clamp(36px, 7vw, 95px) 0 62px; }
 .eyebrow, .section-kicker { display: flex; align-items: center; gap: 9px; color: #5a7568; font-size: 10px; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; }
 .eyebrow { margin: 0 0 23px; }
 .seed-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #e37c5b; box-shadow: 0 0 0 4px #f2d8cd; }
@@ -64,9 +66,6 @@ button { font: inherit; }
 .button-primary:hover { gap: 16px; background: #173a2c; }
 .button-text { display: inline-flex; align-items: center; gap: 7px; color: #234b3b; font-size: 11px; font-weight: 800; transition: gap 180ms ease; }
 .button-text:hover { gap: 11px; }
-.scroll-prompt { display: inline-flex; width: max-content; align-items: center; gap: 10px; margin-top: auto; padding: 7px 13px 7px 7px; border: 1px solid #c7d2c8; background: #edf1e9; color: #4c6759; font-size: 9px; font-weight: 800; letter-spacing: .085em; text-transform: uppercase; box-shadow: 0 6px 18px rgba(31,75,58,.06); transition: border-color 180ms ease, color 180ms ease, transform 180ms ease; }
-.scroll-prompt:hover { border-color: #7b9786; color: #1f4b3a; transform: translateY(-1px); }
-.scroll-wheel { display: grid; width: 29px; height: 29px; place-items: center; border: 1px solid #b0c1b2; border-radius: 50%; background: #fffdf7; color: #1f4b3a; }
 .portrait-panel { align-self: end; margin: 0; }
 .portrait-frame { position: relative; height: 480px; overflow: hidden; border-radius: 230px 230px 26px 26px; background: #315b49; box-shadow: inset 0 0 0 12px #315b49, 0 16px 36px rgba(31,75,58,.09); }
 .portrait-frame::before { position: absolute; z-index: 1; inset: 0; background: linear-gradient(90deg, rgba(31,75,58,.26), transparent 52%), linear-gradient(0deg, rgba(23,58,44,.27), transparent 44%); content: ""; pointer-events: none; }
@@ -165,7 +164,6 @@ button { font: inherit; }
   .hero-copy { width: min(100% - 2.5rem, 680px); min-height: 440px; margin: 0 auto; padding: 56px 0 36px; }
   .hero-copy h1 { font-size: clamp(50px, 14vw, 79px); }
   .hero-intro { max-width: 360px; margin: 26px 0 23px; font-size: 13px; }
-  .scroll-prompt { display: none; }
   .portrait-panel { width: min(100% - 2.5rem, 680px); margin: 0 auto; }
   .portrait-frame { height: min(117vw, 480px); }
   .portrait-caption { min-height: 73px; }

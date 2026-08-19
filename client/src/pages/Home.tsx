@@ -5,7 +5,6 @@
 import { useState } from "react";
 import {
   ArrowRight,
-  ChevronDown,
   Facebook,
   HeartHandshake,
   Instagram,
@@ -116,11 +115,6 @@ export default function Home() {
                   Find Shreeya Hospital <ArrowRight aria-hidden="true" size={15} />
                 </a>
               </div>
-              <a className="scroll-prompt" href="#approach">
-                <span className="scroll-wheel"><ChevronDown size={14} /></span>
-                <span>Discover our approach</span>
-                <ArrowRight aria-hidden="true" size={14} />
-              </a>
             </div>
 
             <figure className="portrait-panel reveal-in delay-1">

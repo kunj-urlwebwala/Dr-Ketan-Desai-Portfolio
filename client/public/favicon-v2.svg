@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Shreeya Hospital">
+  <rect width="64" height="64" rx="15" fill="#1f4b3a"/>
+  <path d="M32 49C21.7 42.4 15 35.7 15 26.2C15 19.7 19.6 15 25.2 15C28.5 15 30.9 16.7 32 19.2C33.1 16.7 35.5 15 38.8 15C44.4 15 49 19.7 49 26.2C49 35.7 42.3 42.4 32 49Z" fill="none" stroke="#fffdf7" stroke-width="4.6" stroke-linejoin="round"/>
+  <path d="M32 39.5V22.3M32 29.8C27.4 29.8 24.3 27.3 22.8 23.3M32 29.8C36.6 29.8 39.7 27.3 41.2 23.3" fill="none" stroke="#eaa07e" stroke-width="3.1" stroke-linecap="round"/>
+  <circle cx="45.2" cy="44.7" r="3.1" fill="#eaa07e"/>
+</svg>

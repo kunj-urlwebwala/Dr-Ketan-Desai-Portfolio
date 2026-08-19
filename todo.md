@@ -6,3 +6,9 @@
 - [x] Create a visible favicon and dedicated social-sharing image asset.
 - [x] Add complete on-page metadata, canonical URL, social metadata, and structured data.
 - [x] Add crawl-control files and validate sitemap, robots, build, and responsive rendering.
+
+## Interaction and Favicon Refinement
+
+- [x] Add a brand-matched custom text-selection highlight for standard and Mozilla browsers.
+- [x] Remove the “Discover Our Approach” control and rebalance the hero spacing.
+- [x] Replace the favicon with a high-contrast, browser-visible brand icon and verify its delivery.
