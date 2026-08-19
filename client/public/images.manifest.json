@@ -1,0 +1,31 @@
+{
+  "name": "Shreeya Hospital Portfolio Image Manifest",
+  "delivery": "Managed public asset storage",
+  "note": "These image paths are publicly served by the deployed website. Media is intentionally kept outside the Vite project public folder to avoid duplicate deployment payloads and preserve reliable builds.",
+  "images": [
+    {
+      "id": "brand-mark",
+      "path": "/manus-storage/shreeya-mark_c559eb82.png",
+      "usage": "Shared Shreeya heart-sprout logo mark in the header, footer, section indexes, and portrait stamp",
+      "alt": "Shreeya Hospital heart-sprout logo"
+    },
+    {
+      "id": "doctor-portrait",
+      "path": "/manus-storage/dr-ketan-desai-portrait_8f1994f4.png",
+      "usage": "Curved hero portrait for Dr. Ketan Desai",
+      "alt": "Dr. Ketan Desai, doctor at Shreeya Hospital in Ghatlodia, Ahmedabad"
+    },
+    {
+      "id": "care-illustration",
+      "path": "/manus-storage/shreeya-care-illustration_9c4dd0ec.png",
+      "usage": "Doctor introduction and compassionate-care section illustration",
+      "alt": "Illustration of caring hands protecting a young plant"
+    },
+    {
+      "id": "location-illustration",
+      "path": "/manus-storage/shreeya-location-illustration_262f1d28.png",
+      "usage": "Visit Shreeya location section illustration",
+      "alt": "Illustration of a welcoming hospital setting near Ghatlodia, Ahmedabad"
+    }
+  ]
+}

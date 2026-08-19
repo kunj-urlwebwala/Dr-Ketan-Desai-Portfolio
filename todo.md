@@ -25,3 +25,9 @@
 - [x] Extract reusable site sections and shared brand elements into maintainable React components.
 - [x] Preserve the existing SEO, interaction, favicon, responsive, and visual requirements after the refactor.
 - [x] Validate the production build and responsive portfolio rendering.
+
+## Public Asset Organization
+
+- [x] Document every website image as a managed public asset reference.
+- [x] Add a public manifest that exposes the asset paths without duplicating media inside the Vite project.
+- [x] Validate that all managed image URLs remain reachable and preserve the deployed site output.
