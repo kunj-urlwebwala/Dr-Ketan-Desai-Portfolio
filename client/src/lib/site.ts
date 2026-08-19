@@ -26,8 +26,9 @@ export const carePrinciples = [
 ] as const;
 
 export const assets = {
-  mark: "/manus-storage/shreeya-mark_c559eb82.png",
-  doctorPortrait: "/manus-storage/dr-ketan-desai-portrait_8f1994f4.png",
-  careIllustration: "/manus-storage/shreeya-care-illustration_9c4dd0ec.png",
-  locationIllustration: "/manus-storage/shreeya-location-illustration_262f1d28.png",
+  mark: "/images/shreeya-mark.png",
+  doctorPortrait: "/images/dr-ketan-desai-portrait.png",
+  careIllustration: "/images/shreeya-care-illustration.png",
+  locationIllustration: "/images/shreeya-location-illustration.png",
+  heroChildren: "/images/shreeya-hero-children.png",
 } as const;

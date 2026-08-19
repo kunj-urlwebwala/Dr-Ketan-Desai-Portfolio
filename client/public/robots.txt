@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ketanport-g6cll8oo.manus.space/sitemap.xml
+Sitemap: https://dr-ketan-desai-portfolio.vercel.app/sitemap.xml
