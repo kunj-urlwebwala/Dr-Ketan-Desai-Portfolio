@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ketanport-g6cll8oo.manus.space/sitemap.xml

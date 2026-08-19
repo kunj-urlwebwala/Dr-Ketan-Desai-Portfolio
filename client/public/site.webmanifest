@@ -1,0 +1,18 @@
+{
+  "name": "Shreeya Hospital | Dr. Ketan Desai",
+  "short_name": "Shreeya Hospital",
+  "description": "Compassionate, doctor-led child health care in Ghatlodia, Ahmedabad.",
+  "lang": "en-IN",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f2eb",
+  "theme_color": "#1f4b3a",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

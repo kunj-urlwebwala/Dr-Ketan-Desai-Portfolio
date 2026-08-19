@@ -6,7 +6,10 @@ import { useState } from "react";
 import {
   ArrowRight,
   ChevronDown,
+  Facebook,
   HeartHandshake,
+  Instagram,
+  Linkedin,
   MapPin,
   Menu,
   Phone,
@@ -18,17 +21,18 @@ const phoneLink = "tel:+919925097325";
 const mapsLink =
   "https://www.google.com/maps/search/?api=1&query=Shreeya+Hospital+Ghatlodia+Ahmedabad";
 
-function Wordmark({ compact = false }: { compact?: boolean }) {
+function Wordmark() {
   return (
     <a className="brand-lockup" href="#top" aria-label="Shreeya Hospital home">
       <img
         className="brand-mark"
         src="/manus-storage/shreeya-mark_c559eb82.png"
         alt=""
+        width={48}
+        height={48}
       />
       <span className="brand-copy">
         <span className="brand-name">shreeya</span>
-        {!compact && <span className="brand-type">hospital</span>}
       </span>
     </a>
   );
@@ -114,7 +118,8 @@ export default function Home() {
               </div>
               <a className="scroll-prompt" href="#approach">
                 <span className="scroll-wheel"><ChevronDown size={14} /></span>
-                Discover our approach
+                <span>Discover our approach</span>
+                <ArrowRight aria-hidden="true" size={14} />
               </a>
             </div>
 
@@ -122,7 +127,11 @@ export default function Home() {
               <div className="portrait-frame">
                 <img
                   src="/manus-storage/dr-ketan-desai-portrait_8f1994f4.png"
-                  alt="Dr. Ketan Desai seated at his desk, wearing a stethoscope"
+                  alt="Dr. Ketan Desai, doctor at Shreeya Hospital in Ghatlodia, Ahmedabad"
+                  width={1123}
+                  height={1194}
+                  fetchPriority="high"
+                  decoding="async"
                 />
                 <div className="portrait-forest-stamp" aria-hidden="true">
                   <img src="/manus-storage/shreeya-mark_c559eb82.png" alt="" />
@@ -176,7 +185,7 @@ export default function Home() {
 
         <section id="doctor" className="doctor-section">
           <div className="doctor-visual" role="img" aria-label="Illustration of caring hands protecting a young plant">
-            <img src="/manus-storage/shreeya-care-illustration_9c4dd0ec.png" alt="" />
+            <img src="/manus-storage/shreeya-care-illustration_9c4dd0ec.png" alt="" width={1200} height={800} loading="lazy" decoding="async" />
             <span className="visual-seed seed-one" />
             <span className="visual-seed seed-two" />
           </div>
@@ -221,23 +230,30 @@ export default function Home() {
                 <Phone aria-hidden="true" size={16} />
                 +91 99250 97325
               </a>
-              <a className="button-text" href={mapsLink} target="_blank" rel="noreferrer">
+              <a className="button-text" href={mapsLink} target="_blank" rel="noopener noreferrer">
                 Get directions <ArrowRight aria-hidden="true" size={15} />
               </a>
             </div>
           </div>
           <div className="visit-visual reveal-in delay-2">
             <div className="map-note"><span className="seed-dot" />Ghatlodia · Ahmedabad</div>
-            <img src="/manus-storage/shreeya-location-illustration_262f1d28.png" alt="A welcoming illustration of a neighborhood hospital framed by trees" />
+            <img src="/manus-storage/shreeya-location-illustration_262f1d28.png" alt="Illustration of a welcoming hospital setting near Ghatlodia, Ahmedabad" width={960} height={1200} loading="lazy" decoding="async" />
           </div>
         </section>
       </main>
 
       <footer className="site-footer">
         <div className="footer-top section-wrap">
-          <Wordmark compact />
+          <Wordmark />
           <p>Healthy Children <span>•</span> Happy Future</p>
-          <a href={phoneLink}>+91 99250 97325 <ArrowRight aria-hidden="true" size={15} /></a>
+          <div className="footer-utility">
+            <a href={phoneLink}>+91 99250 97325 <ArrowRight aria-hidden="true" size={15} /></a>
+            <nav className="social-nav" aria-label="Social media">
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><Instagram aria-hidden="true" size={16} /></a>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><Facebook aria-hidden="true" size={16} /></a>
+              <a href="https://www.linkedin.com/in/ketan-desai-122b72258" target="_blank" rel="noopener noreferrer" aria-label="Dr. Ketan Desai on LinkedIn"><Linkedin aria-hidden="true" size={16} /></a>
+            </nav>
+          </div>
         </div>
         <div className="footer-bottom section-wrap">
           <p>© {new Date().getFullYear()} Shreeya Hospital. All rights reserved.</p>
