@@ -18,3 +18,10 @@
 - [x] Increase the header logo mark and wordmark for stronger first-glance recognition.
 - [x] Improve the footer logo contrast and scale for clear readability on the forest background.
 - [x] Update the favicon to use the same heart-sprout brand mark as the website logo.
+
+## React and Vite Formalization
+
+- [x] Confirm the active client build remains React.js with Vite.
+- [x] Extract reusable site sections and shared brand elements into maintainable React components.
+- [x] Preserve the existing SEO, interaction, favicon, responsive, and visual requirements after the refactor.
+- [x] Validate the production build and responsive portfolio rendering.
