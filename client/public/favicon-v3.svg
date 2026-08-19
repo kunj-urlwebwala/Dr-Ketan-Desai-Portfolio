@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Shreeya Hospital heart-sprout mark">
+  <rect width="64" height="64" rx="16" fill="#f6f2eb"/>
+  <path d="M32 50C20.9 42.2 14 35.3 14 25.6C14 18.9 18.8 14 24.9 14C28.4 14 30.9 15.8 32 18.3C33.1 15.8 35.6 14 39.1 14C45.2 14 50 18.9 50 25.6C50 35.3 43.1 42.2 32 50Z" fill="none" stroke="#1f4b3a" stroke-width="4.7" stroke-linejoin="round"/>
+  <path d="M32 40.7V21.2M32 29.6C27.2 29.6 23.9 26.9 22.3 22.7M32 29.6C36.8 29.6 40.1 26.9 41.7 22.7" fill="none" stroke="#1f4b3a" stroke-width="3.2" stroke-linecap="round"/>
+  <circle cx="45.4" cy="45.2" r="3.2" fill="#e37c5b"/>
+</svg>

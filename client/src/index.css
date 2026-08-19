@@ -36,11 +36,11 @@ button { font: inherit; }
 .section-wrap { width: min(100% - 3rem, 1180px); margin: 0 auto; }
 
 .site-header { position: relative; z-index: 30; background: #f6f2eb; }
-.header-inner { width: min(100% - 3rem, 1300px); min-height: 86px; margin: 0 auto; display: flex; align-items: center; gap: 24px; border-bottom: 1px solid #cad4c6; }
-.brand-lockup { display: inline-flex; align-items: center; gap: 9px; min-width: 142px; }
-.brand-mark { width: 30px; height: 30px; object-fit: contain; }
+.header-inner { width: min(100% - 3rem, 1300px); min-height: 96px; margin: 0 auto; display: flex; align-items: center; gap: 24px; border-bottom: 1px solid #cad4c6; }
+.brand-lockup { display: inline-flex; align-items: center; gap: 11px; min-width: 182px; }
+.brand-mark { width: 42px; height: 42px; object-fit: contain; }
 .brand-copy { display: flex; flex-direction: column; line-height: .9; }
-.brand-name { font-family: "DM Serif Display", serif; font-size: 27px; letter-spacing: -1.4px; }
+.brand-name { font-family: "DM Serif Display", serif; font-size: 34px; letter-spacing: -1.7px; }
 .desktop-nav { display: flex; align-items: center; gap: clamp(20px, 3vw, 45px); margin-left: auto; }
 .desktop-nav a { position: relative; color: #405a4c; font-size: 12px; font-weight: 700; letter-spacing: -.02em; }
 .desktop-nav a::after { position: absolute; right: 0; bottom: -7px; left: 0; height: 1px; background: #e37c5b; content: ""; transform: scaleX(0); transform-origin: left; transition: transform 180ms cubic-bezier(.23,1,.32,1); }
@@ -135,6 +135,8 @@ button { font: inherit; }
 
 .site-footer { background: #173a2c; color: #edf0e9; }
 .footer-top { display: flex; align-items: center; justify-content: space-between; min-height: 131px; border-bottom: 1px solid rgba(238,241,234,.18); }
+.site-footer .brand-lockup { min-width: 190px; }
+.site-footer .brand-mark { width: 38px; height: 38px; filter: brightness(0) invert(1); opacity: .96; }
 .site-footer .brand-name { color: #f6f2eb; }
 .footer-top > p { margin: 0; color: #c9d7ca; font-family: "DM Serif Display", serif; font-size: 20px; letter-spacing: -.035em; }
 .footer-top > p span { margin: 0 7px; color: #e37c5b; }
@@ -153,7 +155,7 @@ button { font: inherit; }
 
 @media (max-width: 800px) {
   .section-wrap { width: min(100% - 2.5rem, 1180px); }
-  .header-inner { width: min(100% - 2.5rem, 1300px); min-height: 74px; }
+  .header-inner { width: min(100% - 2.5rem, 1300px); min-height: 80px; }
   .desktop-nav, .header-call { display: none; }
   .menu-toggle { display: block; }
   .mobile-nav { display: flex; flex-direction: column; padding: 13px 1.25rem 21px; border-bottom: 1px solid #cad4c6; background: #f6f2eb; }
@@ -187,7 +189,7 @@ button { font: inherit; }
 }
 
 @media (max-width: 430px) {
-  .brand-lockup { min-width: auto; }.brand-name { font-size: 25px; }
+  .brand-lockup { min-width: auto; gap: 8px; }.brand-mark { width: 32px; height: 32px; }.brand-name { font-size: 28px; }
   .hero-actions { align-items: flex-start; flex-direction: column; gap: 16px; }
   .caption-tag { font-size: 8px; }.portrait-caption { gap: 9px; }
   .portrait-caption strong { font-size: 17px; }

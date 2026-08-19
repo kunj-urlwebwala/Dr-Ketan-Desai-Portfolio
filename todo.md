@@ -12,3 +12,9 @@
 - [x] Add a brand-matched custom text-selection highlight for standard and Mozilla browsers.
 - [x] Remove the “Discover Our Approach” control and rebalance the hero spacing.
 - [x] Replace the favicon with a high-contrast, browser-visible brand icon and verify its delivery.
+
+## Brand Alignment Refinement
+
+- [x] Increase the header logo mark and wordmark for stronger first-glance recognition.
+- [x] Improve the footer logo contrast and scale for clear readability on the forest background.
+- [x] Update the favicon to use the same heart-sprout brand mark as the website logo.
